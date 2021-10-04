@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    font-family: 'Open Sans', sans-serif;
+    background: radial-gradient(circle farthest-side at bottom right, #fed978 0%, #f2f3f5 80%);
+  }
+  
+  #fondo{
+  background: url(../imagenes/pastor1.jpg);
+  height: 80vh;
+  background-size: cover;
+  }
+  
+  .contenedorTitu{
+    background: rgba(75, 54, 23, 0.3);
+    color: #FFF;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+    position: relative;
+    top:50px;
+    width: 100%;
+  }
+  
+  .ContenedorNav{
+      width: 100%;
+      margin:auto;
+      font-family: 'Shadows Into Light', cursive;
+      font-family: 'Roboto Condensed', sans-serif;
+  }
+  
+  
+  #Cabeza{
+      color: white;
+      display: flex;
+      position: fixed;
+      z-index:1;
+      width: 100%;
+      height: auto;
+      background: rgba(75, 54, 23, 0.5);
+      padding: 5px;
+  }
+  
+  #Cabeza h1{
+      float: left;
+  }
+  
+  .menu{
+      float: right;
+      margin-top: 10px;
+      display: block;
+  }
+  
+  .menu li{
+  list-style: none;
+  float: left;
+  margin: 5px;
+  }
+  
+  .menu li ul{
+    display: none;
+    position: absolute;
+  }
+  
+  .menu li:hover ul{
+    display: block;
+  }
+  
+  .menu li ul li{
+    position: relative;
+  }
+  
+  .menu li ul li ul{
+    height: -145;
+    top:0px;
+    padding: 10px;
+  }
+  
+  .menu a{
+      color: white;
+      text-decoration: none;
+      padding: 5px 20px;
+  
+  }
+  
+  .menu a:hover{
+      background: rgb(254, 217, 120,0.5);
+  }
+  
+  .ContenedorNav{
+      width: 100%;
+      margin:auto;
+      font-family: 'Shadows Into Light', cursive;
+      font-family: 'Roboto Condensed', sans-serif;
+      padding: 5px;
+  }
+  
+  #Principal{
+     color: #FFF;
+      position: relative;
+      width: 32%;
+      top:25%;
+      right: -67%;
+      padding: 4px;
+      background: rgb(254, 217, 120,0.4);
+  }
+  
+  .ContenedorPrin{
+     font-weight: 600;
+     font-size: 20px;
+     font-family: 'Shadows Into Light', cursive;
+     text-align: center;
+     letter-spacing: 2px;
+  }
+  
+  .ContenedorPrin p{
+      margin: auto;
+      width: 80%;
+      font-family: 'Roboto Condensed', sans-serif;
+      text-align: justify;
+      font-size: 16px;
+      letter-spacing: initial;
+  }
+  #Contenido {
+      background: #4B3617;
+      padding: 10px;
+      width: 35%;
+      display: inline-block;
+  }
+  .section__div {
+      background-color: #FED978;
+      padding: 2%;
+      margin: 2%;
+      position: relative;
+      left: 30%;
+      width: 700px;
+      display: flex;
+  }
+  .section__cont > h4 {
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 900;
+    font-size: 20px;
+    color: #4B3617;
+    border-bottom: 2px solid #4B3617;
+  }
+  .section__cont > p {
+    margin: auto;
+    width: 80%;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: justify;
+    font-size: 16px;
+  }
+  .section__img {
+      align-self: center;
+      margin: 2%;
+  }
+  .section__img img {
+      width: 250px;
+      height: 250px;
+      object-fit: cover;
+  }
+  #info {
+      display: inline-block;
+      margin-left: 30%;
+  }
+  #info h3 {
+      text-align: center;
+      font-family: 'Shadows Into Light', cursive;
+      text-align: center;
+      letter-spacing: 2px;
+      font-weight: 900;
+      font-size: 20px;
+      color: #4B3617;
+      border-bottom: 2px solid #4B3617;
+      background-color: #FED978;
+      margin-bottom: 2%;
+  }
+  footer {
+      background-color: #E0E6EF;
+  }
+  .contenedor p {
+      text-align: center;
+      font-family: 'Roboto Condensed', sans-serif;
+  }
